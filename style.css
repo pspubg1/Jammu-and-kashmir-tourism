@@ -1,0 +1,135 @@
+*{
+    
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+body:before{
+    content: "";
+    position: fixed;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.2),#331c3e 75%);
+
+}
+#dog{
+    height: 50%;
+    text-align: center;
+    padding: 100px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav{
+    width:100%;
+    height:75px;
+    line-height: 75px;
+    padding: 0px 40px;
+    position: fixed;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.2)    ;
+}
+
+nav .logo p{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    float:left; 
+    color:whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    
+    
+}
+
+.jammu{
+    max-width: 1200px;
+    margin: auto;
+    color: whitesmoke;
+    overflow: auto;
+}
+.gallery{
+    margin:5px;
+    border:1px solid
+    float left;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    width: 390px;
+}
+.gallery img{
+    width:100%;
+    height:50%;
+    
+    border-radius: 10%;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav li{
+    display:inline-block;
+    
+    list-style: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: grey;
+
+    
+}
+.jammu a{
+    color: whitesmoke;
+}
+.jammu a:hover{
+    color: grey;
+    text-decoration-color: whitesmoke;
+    
+}
+.container img{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bye{
+    text-align: center;
+    font-size: 50px;
+}
+.hi .p{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.hi{
+    justify-content:space-between ;
+    text-align: center;
+    color: blanchedalmond;
+}
+
